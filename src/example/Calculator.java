@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Calculator {
     // 속성
-    private int num1, num2, result = 0;
-    private char operator;
+    private int num1, num2;
+    private char oprator;
 
     // 연산 결과를 저장하는 컬렉션 타입 필드를 가진 Calculator 클래스를 생성
     private ArrayList<Integer> calculators = new ArrayList<>();
@@ -27,20 +27,20 @@ public class Calculator {
         this.num2 = num2;
     }
 
-    public int getResult() {
-        return result;
+    public char getOprator() {
+        return oprator;
     }
 
-    public void setResult(int result) {
-        this.result = result;
+    public void setOprator(char oprator) {
+        this.oprator = oprator;
     }
 
-    public char getOperator() {
-        return operator;
+    public ArrayList<Integer> getCalculators() {
+        return calculators;
     }
 
-    public void setOperator(char operator) {
-        this.operator = operator;
+    public void setCalculators(ArrayList<Integer> calculators) {
+        this.calculators = calculators;
     }
 
     // 1) 양의 정수 2개(0 포함)와 연산 기호를 매개변수로 받아 사칙연산(➕,➖,✖️,➗) 기능을 수행한 후
