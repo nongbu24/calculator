@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 public class Calculator {
     // 속성
-    // App 클래스의 main 메서드에서 Calculator 클래스의 연산 결과를 저장하고 있는 컬렉션 필드에 직접 접근하지 못하도록 수정 (캡슐화)
     private int result;
 
+    // App 클래스의 main 메서드에서 Calculator 클래스의 연산 결과를 저장하고 있는 컬렉션 필드에 직접 접근하지 못하도록 수정 (캡슐화)
     // 연산 결과를 저장하는 컬렉션 타입 필드를 가진 Calculator 클래스를 생성
-    private ArrayList<Integer> calculators = new ArrayList<>();
+    private ArrayList<Object> calculators = new ArrayList<>();
 
     // 기능
     // 간접 접근을 통해 필드에 접근하여 가져올 수 있도록 구현 (Getter 메서드)
