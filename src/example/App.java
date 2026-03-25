@@ -44,6 +44,11 @@ public class App {
 
             System.out.print("더 계산하시겠습니까? (exit 입력 시 종료) ");
             strExit = scanner.nextLine();
+
+            System.out.print("비교값을 입력해주세요: ");
+            double standard = scanner.nextDouble();
+
+            cal.getGreaterThan(standard);
         }
     }
 }

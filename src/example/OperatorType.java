@@ -1,5 +1,7 @@
 package example;
 
+import java.util.ArrayList;
+
 // Enum 타입을 활용하여 연산자 타입에 대한 정보를 관리
 public enum OperatorType {
     PLUS('+') {
