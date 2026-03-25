@@ -2,8 +2,7 @@ package example;
 
 import java.util.ArrayList;
 
-public class Calculator {
-    // 속성
+public class ArithmethicCalculator {
     private int result;
 
     // App 클래스의 main 메서드에서 Calculator 클래스의 연산 결과를 저장하고 있는 컬렉션 필드에 직접 접근하지 못하도록 수정 (캡슐화)
